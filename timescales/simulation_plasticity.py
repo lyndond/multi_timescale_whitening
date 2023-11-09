@@ -2,14 +2,13 @@ import collections
 from typing import List, Dict, Any, Optional
 import matplotlib.pyplot as plt
 import numpy as np
-import scipy as sp
+# import scipy as sp
 from scipy.linalg import orthogonal_procrustes
 import seaborn as sns
 from tqdm import tqdm 
 
-from timescales.frame import normalize_frame
-from timescales.stats import psd_sqrt, normalize_cov
-
+# from timescales.frame import normalize_frame
+# from timescales.stats import psd_sqrt, normalize_cov
 
 
 def optimal_alignment(W, W0, align_type='permutation'):
